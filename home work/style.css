@@ -1,0 +1,49 @@
+.text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.text2 {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    text-decoration: line-through;
+}
+
+.text3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text4 {
+    font-family: "Montserrat", sans-serif;
+    word-spacing: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #f71dec50;
+    text-decoration: wavy overline;
+}
+
+.text5 {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 5px;
+    text-decoration: double underline;
+}
