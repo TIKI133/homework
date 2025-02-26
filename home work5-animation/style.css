@@ -1,0 +1,46 @@
+body {
+    background: #a7a7a7;
+}
+
+.wrapper {
+    padding: 50px;
+    height: 100%;
+}
+
+.container {
+    height: 150px;
+    background: #443f3f;
+    position: relative;
+}
+
+.cube {
+    background: linear-gradient(120deg, #8989e9, #e79090);
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+    position: absolute;
+    animation: move-cube 1.5s .3s infinite alternate,
+        color-cube 1.5s .3s infinite alternate;
+}
+
+
+@keyframes move-cube {
+    0% {
+        left: 0px;
+    }
+
+    100% {
+        border-radius: 50%;
+        left: calc(100% - 150px)
+    }
+}
+
+@keyframes color-cube {
+    0% {
+        background: linear-gradient(120deg, #8989e9, #e79090);
+    }
+
+    100% {
+        background: linear-gradient(90deg, #8931ee, #49cf9c)
+    }
+}
