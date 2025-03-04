@@ -1,0 +1,40 @@
+:root {
+    --color: #f87782;
+    --border-radius: 20%;
+    --padding: 30px;
+    --width: 800px;
+}
+
+body {
+    background: #3b3636;
+    padding: 100px;
+    color: #000000;
+}
+
+.section {
+    width: var(--width);
+    background: #ffffff;
+    padding: var(--padding);
+    margin-left: 25%;
+    border-radius: var(--border-radius);
+    border: 10px solid var(--color);
+}
+
+
+.text {
+    margin: 35px;
+    font-size: 24px;
+}
+
+.button {
+    --color: #52eccb9d;
+    --border-radius: 30px;
+    --width: 300px;
+    padding: var(--padding);
+    margin-left: 25%;
+    border-radius: var(--border-radius);
+    font-size: 20px;
+    text-align: center;
+    width: var(--width);
+    background: var(--color);
+}
