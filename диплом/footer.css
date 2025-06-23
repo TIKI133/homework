@@ -1,0 +1,39 @@
+.footer {
+    color: #DE343D;
+    background: #F9F9F9;
+    height: 432px;
+    padding: 108px 0px 112px;
+}
+
+.footer__inner {
+    display: grid;
+    justify-content: end;
+}
+
+.footer__col {
+    display: flex;
+    position: relative;
+    left: -180px;
+}
+
+.footer__nav-title {
+    font-weight: 800;
+    font-size: 21px;
+    margin: 0px 102px 48px 0px;
+}
+
+.footer__nav-list {
+    font-size: 18px;
+}
+
+.footer__nav-item {
+    margin-bottom: 17px;
+}
+
+.footer__nav-link {
+    transition: all .4s;
+}
+
+.footer__nav-link:hover {
+    color: #9b252b;
+}
