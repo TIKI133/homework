@@ -1,0 +1,793 @@
+@import "global.css";
+
+@import "header.css";
+@import "footer.css";
+
+/* ======================================================= */
+
+.main__hero {
+    height: 940px;
+    padding-bottom: 84px;
+}
+
+.hero__bg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: -11;
+    height: 889px;
+    align-items: flex-end;
+}
+
+.sneaker__bg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -855px;
+    left: -17px;
+}
+
+.hero__button {
+    position: absolute;
+    right: 200px;
+    bottom: 105px;
+    color: #FFFFFF;
+    font-size: 21px;
+    letter-spacing: 2px;
+    border: 2px solid #FFFFFF;
+    padding: 18px 23px;
+    text-transform: uppercase;
+    transition: all .4s;
+}
+
+.hero__button:hover {
+    color: #0101a7;
+    border: 2px solid #0101a7;
+}
+
+/* ======================================================== */
+.sellers__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 66px;
+}
+
+.title {
+    color: #DE343D;
+    font-size: 38px;
+    margin-bottom: 35px;
+}
+
+.sellers__buttons {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.filters__button {
+    padding: 5px 20px;
+    margin: 12px 30px 0px 0px;
+}
+
+.button {
+    border: 1px solid #808080;
+    color: #808080;
+    background: transparent;
+    font-size: 16px;
+    letter-spacing: 1.26px;
+    line-height: 40px;
+    transition: all .4s;
+}
+
+.button:hover {
+    border: 1px solid #000000;
+    color: #000000;
+    background: transparent;
+}
+
+.button img {
+    margin-top: 12px;
+}
+
+.sort__button {
+    padding: 5px 20px;
+    margin: 12px 30px 0px 0px;
+}
+
+.burger__button {
+    margin-top: 12px;
+    padding: 5px 20px;
+}
+
+.burger__button img {
+    position: relative;
+    bottom: 4px;
+}
+
+.window__button {
+    margin-top: 12px;
+    padding: 5px 20px;
+}
+
+.sneakers__nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sneakers__prev {
+    position: relative;
+    z-index: 1;
+    bottom: 42vh;
+    left: 4vh;
+    background: transparent;
+}
+
+.sneakers__next {
+    position: relative;
+    z-index: 1;
+    bottom: 42vh;
+    right: 3vh;
+    background: transparent;
+}
+
+.swiper-button-disabled.sneakers__prev,
+.swiper-button-disabled.sneakers__next {
+    cursor: auto;
+}
+
+.swiper-button-disabled.sneakers__prev path,
+.swiper-button-disabled.sneakers__next path {
+    fill: #9C9C9C;
+}
+
+.sellers__slider {
+    display: grid;
+    gap: 0px 40px;
+    margin: 0px 65px;
+}
+
+.sneakers__slide {
+    align-content: center;
+}
+
+.sneakers__logo {
+    display: grid;
+    position: relative;
+    place-content: center;
+    background: #F9F9F9;
+    height: 377px;
+}
+
+.orange {
+    position: relative;
+    bottom: 15px;
+}
+
+.sneakers__desc {
+    display: flex;
+    justify-content: start;
+    position: relative;
+    bottom: 70px;
+}
+
+.sneakers__name {
+    color: #9C9C9C;
+    font-size: 22px;
+    letter-spacing: 1.57px;
+    line-height: 140%;
+    margin-bottom: 6px;
+}
+
+.sneakers__model {
+    font-size: 25px;
+    line-height: 140%;
+    margin-bottom: 6px;
+}
+
+.sneakers__price {
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 7px;
+}
+
+.sneakers__sizes {
+    color: #DE343D;
+    font-size: 19px;
+    line-height: 140%;
+    letter-spacing: 1.57px;
+}
+
+.desc__orange {
+    margin-top: 70px;
+}
+
+.desc__green {
+    margin-top: 100px;
+}
+
+.desc__blue {
+    margin-top: 100px;
+}
+
+.desc__nb {
+    margin-top: 98px;
+}
+
+.button__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.see__button {
+    border: 1px solid #808080;
+    color: #808080;
+    font-size: 21px;
+    padding: 5px 25px;
+    margin-bottom: 150px;
+    margin-top: -55px;
+    letter-spacing: 1.63px;
+    line-height: 52px;
+    transition: all .4s;
+}
+
+.see__button:hover {
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+
+
+/* ====================================================== */
+
+.main__company {
+    margin-top: 60px;
+}
+
+.company__inner {
+    height: 313px;
+    margin-bottom: 95px;
+    position: relative;
+    width: 100%;
+}
+
+.company__text img {
+    max-width: 100%;
+}
+
+.company__text-decor img {
+    max-width: 100%;
+}
+
+.company__brands img {
+    max-width: 100%;
+}
+
+.company__text {
+    display: block;
+    width: 80%;
+    margin: 0px 10%;
+
+}
+
+.company__text-decor {
+    display: flex;
+    justify-content: center;
+}
+
+.text__decor-one {
+    transform: translate(33px, -450px);
+}
+
+.text__decor-two {
+    transform: translate(655px, -482px);
+}
+
+.text__decor-three {
+    transform: translate(225px, -174px);
+}
+
+.company__brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 165px;
+}
+
+.brand__nike {
+    margin-right: 101px;
+}
+
+.brand__adidas {
+    margin-right: 89px;
+}
+
+.brand__vans {
+    margin-right: 50px;
+}
+
+/* ============================================================= */
+
+
+.banner__stroke {
+    display: flex;
+    width: 100vw;
+    max-width: 3000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.banner__text img {
+    width: 90px;
+    margin: 0px 20px 0px 30px;
+}
+
+.banner__text {
+    display: flex;
+    flex-shrink: 0;
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: 800;
+    text-transform: uppercase;
+    animation: running-animation 50s linear infinite;
+    white-space: nowrap;
+}
+
+@keyframes running-animation {
+    0% {
+        transform: translateZ(0);
+    }
+
+    100% {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+.banner__nike {
+    position: relative;
+    width: 100%;
+}
+
+.banner__nike img {
+    max-width: 100%;
+}
+
+.banner__bg {
+    display: block;
+    width: 100%;
+}
+
+.banner__bg-text {
+    position: absolute;
+    bottom: 34%;
+    width: 100%;
+}
+
+.banner__bg-nike {
+    position: absolute;
+    bottom: 37%;
+    margin: 0px 37%;
+}
+
+
+/* ========================================================== */
+
+.main__showcase {
+    margin: 0px 22vh 0px;
+}
+
+.showcase__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 66px 65px;
+}
+
+.showcase__buttons {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.showcase__products {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px 15px 65px;
+}
+
+.showcase {
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+
+.products__desc {
+    display: flex;
+    justify-content: space-between;
+    margin: 9vh 26vh 0vh 6.5vh;
+}
+
+.sneakers__logo {
+    width: 402px;
+}
+
+.sneakers__products {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 100px 15px 65px;
+}
+
+.sneakers__product {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 100px 15px 65px;
+}
+
+.product__description {
+    display: flex;
+    justify-content: space-between;
+    margin: 9vh 26vh 0vh 6.5vh;
+}
+
+.product__desc {
+    display: flex;
+    justify-content: space-between;
+    margin: 9vh 26vh 0vh 6.5vh;
+}
+
+.button__open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border: 1px solid #808080;
+    color: #808080;
+    font-size: 21px;
+    padding: 5px 25px;
+    margin: -35px 0px 42vh 0px;
+    letter-spacing: 1.63px;
+    line-height: 52px;
+    transition: all .4s;
+    background: transparent;
+}
+
+.btn:hover {
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+@media (max-width: 1800px) {
+    .main__showcase {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .hero__button {
+        display: none;
+    }
+
+    .company__text-decor {
+        display: none;
+    }
+
+    .showcase,
+    .showcase__hidden {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 10vh;
+    }
+
+    .showcase__inner {
+        display: grid;
+        justify-content: center;
+        margin-top: 5vh;
+        text-align: center;
+    }
+
+    .showcase__products {
+        display: grid;
+        gap: 25px;
+    }
+
+    .products__desc {
+        display: grid;
+        gap: 30vh;
+        margin: 0px;
+    }
+
+    .sneakers__products,
+    .product__desc {
+        display: none;
+    }
+
+    .sneakers__product {
+        display: grid;
+        gap: 25px;
+    }
+
+    .product__description {
+        display: grid;
+        gap: 30vh;
+        margin: 0px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .search {
+        display: none;
+    }
+
+    .sellers__inner {
+        justify-content: center;
+        display: grid;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 950px) {
+    .sellers__slider {
+        left: 25vh;
+    }
+}
+
+@media (max-width: 850px) {
+    .footer {
+        padding: 0px;
+    }
+
+    .footer__inner {
+        justify-content: center;
+    }
+
+    .footer__col {
+        position: static;
+    }
+}
+
+@media (max-width: 800px) {
+    .sellers__slider {
+        left: 15vh;
+    }
+
+    .see__button {
+        margin-bottom: 0px;
+    }
+
+    .company__inner {
+        margin-bottom: 0px;
+    }
+
+    .showcase__products {
+        margin: 0px 10px 0px 0px;
+    }
+
+    .sneakers__name,
+    .sneakers__model,
+    .sneakers__price,
+    .sneakers__sizes {
+        font-size: 16px;
+    }
+
+    .sneakers__product {
+        margin: 0px 10px 0px 0px;
+    }
+}
+
+@media (max-width: 700px) {
+    .sneaker__bg {
+        height: 600px;
+        top: -90vh;
+    }
+
+    .sellers__slider {
+        left: 5vh;
+    }
+
+    .sellers__buttons {
+        display: grid;
+        margin: 0px 46px 35px;
+    }
+
+    .sort__button {
+        margin: 0px 30px 0px 0px;
+    }
+
+    .burger__button,
+    .window__button {
+        margin: 0px 15px;
+        position: relative;
+        left: -15px;
+    }
+
+    .showcase__buttons {
+        display: grid;
+        margin: 0px 46px 35px;
+    }
+    .btn {
+        margin: -35px 0px 15vh 0px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .footer {
+        height: 60vh;
+    }
+
+    .footer__col {
+        display: grid;
+        margin-top: 15px;
+    }
+
+    .footer__nav {
+        margin-bottom: 50px;
+    }
+
+    .footer__nav-title {
+        margin: 0px 0px 15px;
+    }
+
+    .footer__nav-item {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        height: 150px;
+    }
+
+    .nav {
+        margin: 0px;
+    }
+
+    .nav__list {
+        display: grid;
+        gap: 3px;
+        justify-items: center;
+    }
+
+    .main__hero {
+        height: 780px;
+    }
+
+    .hero__bg {
+        height: 700px;
+    }
+
+    .sneaker__bg {
+        height: 450px;
+        top: -68vh;
+    }
+
+    .sneakers__logo {
+        width: 250px;
+        height: 270px;
+    }
+
+    .sneakers__logo img {
+        width: 250px;
+    }
+
+    .company__inner {
+        height: 150px;
+    }
+
+    .company__brands {
+        display: grid;
+        left: 7vh;
+        position: relative;
+        gap: 40px;
+        margin-bottom: 100px;
+    }
+    .banner__text {
+        font-size: 22px;
+    }
+
+    .products__desc {
+        gap: 21vh;
+    }
+
+    .product__description {
+        gap: 21vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .sneaker__bg {
+        height: 350px;
+        top: -63vh;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .filters__button,
+    .sort__button {
+        padding: 0px;
+        margin: 0px -20px;
+    }
+
+    .burger__button,
+    .window__button {
+        padding: 0px;
+        margin: 0px -20px;
+        left: 0px;
+    }
+
+    .sneakers__logo {
+        width: 160px;
+        height: 200px;
+    }
+
+    .sneakers__logo img {
+        width: 160px;
+    }
+
+    .sneakers__name {
+        font-size: 16px;
+    }
+
+    .sneakers__model {
+        font-size: 18px;
+    }
+
+    .sneakers__price {
+        font-size: 16px;
+    }
+
+    .sneakers__sizes {
+        font-size: 15px;
+    }
+
+    .sneakers__nav svg {
+        height: 40px;
+    }
+
+    .sneakers__next,
+    .sneakers__prev {
+        bottom: 33vh;
+    }
+
+    .products__desc {
+        gap: 18vh;
+        margin-top: 15vh;
+    }
+
+    .sneakers__name,
+    .sneakers__model,
+    .sneakers__price,
+    .sneakers__sizes {
+        font-size: 10px;
+    }
+
+    .product__description {
+        gap: 18vh;
+        margin-top: 15vh;
+    }
+}
+
+@media (max-width: 350px) {
+    .sellers__slider {
+        margin-left: 40px;
+    }
+
+    .sneakers__next {
+        right: 0px;
+    }
+}

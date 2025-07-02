@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker store</title>
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">
+                                    ALL
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">
+                                    FOOTWEAR
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">
+                                    APPAREL
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">
+                                    BASKETBALL
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">
+                                    SLIDES
+                                </a>
+                            </li>
+                            <div class="search">
+                                <img src="img/icon/search.svg" alt="">
+                                <form class="search__form">
+                                    <label class="search__label">
+                                        <input type="text" placeholder="search" class="search__input">
+                                    </label>
+                                </form>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+
+            <section class="main__hero">
+                <div class="hero__bg">
+                    <img src="img/decor/bg-hero.png" alt="Фон для кроссовок">
+                </div>
+                <div class="sneaker__bg">
+                    <img src="img/decor/sneakers-hero.png" alt="Кроссовки">
+                </div>
+                <div class="hero__button">
+                    <a href="#showcase"> BUY NOW</a>
+                </div>
+
+            </section>
+
+            <section class="main__sellers">
+                <div class="container">
+                    <div class="sellers__inner">
+                        <div class="sellers__title">
+                            <h2 class="title">
+                                Top Sellers
+                            </h2>
+                        </div>
+                        <div class="sellers__buttons">
+                            <button class="filters__button button" type="button">
+                                <img src="img/icon/funnel.svg" alt="">
+                                FILTERS
+                            </button>
+                            <button class="sort__button button" type="button">
+                                <img src="img/icon/mini-burger.svg" alt="">
+                                SORT BY
+                            </button>
+                            <button class="burger__button button" type="button">
+                                <img src="img/icon/burger.svg" alt="">
+                            </button>
+                            <button class="window__button button" type="button">
+                                <img src="img/icon/window.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="sellers__slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="sneakers__slide swiper-slide">
+                                <div class="sneakers__logo orange">
+                                    <img src="img/decor/sneakers-orange.png" alt="">
+                                </div>
+                                <div class="sneakers__desc">
+                                    <div class="desc__orange">
+                                        <h4 class="sneakers__name">
+                                            Nike
+                                        </h4>
+                                        <h4 class="sneakers__model">
+                                            Air Force 1 Orche
+                                        </h4>
+                                        <p class="sneakers__price">
+                                            ₹9,985
+                                        </p>
+                                        <p class="sneakers__sizes">
+                                            Sizes: 8 -10
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sneakers__slide swiper-slide">
+                                <div class="sneakers__logo">
+                                    <img src="img/decor/sneakers-green.png" alt="">
+                                </div>
+                                <div class="sneakers__desc">
+                                    <div class="desc__green">
+                                        <h4 class="sneakers__name">
+                                            Nike
+                                        </h4>
+                                        <h4 class="sneakers__model">
+                                            Air Force Panda
+                                        </h4>
+                                        <p class="sneakers__price">
+                                            ₹19,655
+                                        </p>
+                                        <p class="sneakers__sizes">
+                                            Sizes: 6 -10
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sneakers__slide swiper-slide">
+                                <div class="sneakers__logo">
+                                    <img src="img/decor/sneakers-blue.png" alt="">
+                                </div>
+                                <div class="sneakers__desc">
+                                    <div class="desc__blue">
+                                        <h4 class="sneakers__name">
+                                            Nike
+                                        </h4>
+                                        <h4 class="sneakers__model">
+                                            Air Force 1 ‘07
+                                        </h4>
+                                        <p class="sneakers__price">
+                                            ₹15,750
+                                        </p>
+                                        <p class="sneakers__sizes">
+                                            Sizes: 9-12
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sneakers__slide swiper-slide">
+                                <div class="sneakers__logo">
+                                    <img src="img/decor/sneakers-nb.png" alt="">
+                                </div>
+                                <div class="sneakers__desc">
+                                    <div class="desc__nb">
+                                        <h4 class="sneakers__name">
+                                            New Balance
+                                        </h4>
+                                        <h4 class="sneakers__model">
+                                            327’ Munsell White
+                                        </h4>
+                                        <p class="sneakers__price">
+                                            ₹11,999
+                                        </p>
+                                        <p class="sneakers__sizes">
+                                            Sizes: 7-11
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sneakers__slide swiper-slide">
+                                <div class="sneakers__logo orange">
+                                    <img src="img/decor/sneakers-orange.png" alt="">
+                                </div>
+                                <div class="sneakers__desc">
+                                    <div class="desc__orange">
+                                        <h4 class="sneakers__name">
+                                            Nike
+                                        </h4>
+                                        <h4 class="sneakers__model">
+                                            Air Force 1 Orche
+                                        </h4>
+                                        <p class="sneakers__price">
+                                            ₹9,985
+                                        </p>
+                                        <p class="sneakers__sizes">
+                                            Sizes: 8 -10
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sneakers__slide swiper-slide">
+                                <div class="sneakers__logo">
+                                    <img src="img/decor/sneakers-green.png" alt="">
+                                </div>
+                                <div class="sneakers__desc">
+                                    <div class="desc__green">
+                                        <h4 class="sneakers__name">
+                                            Nike
+                                        </h4>
+                                        <h4 class="sneakers__model">
+                                            Air Force Panda
+                                        </h4>
+                                        <p class="sneakers__price">
+                                            ₹19,655
+                                        </p>
+                                        <p class="sneakers__sizes">
+                                            Sizes: 6 -10
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sneakers__slide swiper-slide">
+                                <div class="sneakers__logo">
+                                    <img src="img/decor/sneakers-blue.png" alt="">
+                                </div>
+                                <div class="sneakers__desc">
+                                    <div class="desc__blue">
+                                        <h4 class="sneakers__name">
+                                            Nike
+                                        </h4>
+                                        <h4 class="sneakers__model">
+                                            Air Force 1 ‘07
+                                        </h4>
+                                        <p class="sneakers__price">
+                                            ₹15,750
+                                        </p>
+                                        <p class="sneakers__sizes">
+                                            Sizes: 9-12
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sneakers__nav">
+                        <button class="sneakers__prev">
+                            <svg width="58.000000" height="58.000000" viewBox="0 0 58 58" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <desc>
+                                    Created with Pixso.
+                                </desc>
+                                <defs />
+                                <path id="Vector"
+                                    d="M18.24 26.94C17.97 27.21 17.77 27.54 17.63 27.89C17.34 28.6 17.34 29.39 17.63 30.1C17.77 30.45 17.97 30.78 18.24 31.05L26.94 39.75C27.48 40.3 28.22 40.61 29 40.61C29.77 40.61 30.51 40.3 31.05 39.75C31.6 39.21 31.91 38.47 31.91 37.7C31.91 36.92 31.6 36.18 31.05 35.64L27.28 31.9L37.7 31.9C38.46 31.9 39.2 31.59 39.75 31.05C40.29 30.5 40.59 29.76 40.59 29C40.59 28.23 40.29 27.49 39.75 26.94C39.2 26.4 38.46 26.1 37.7 26.1L27.28 26.1L31.05 22.35C31.33 22.08 31.54 21.76 31.69 21.41C31.84 21.06 31.91 20.68 31.91 20.29C31.91 19.91 31.84 19.53 31.69 19.18C31.54 18.83 31.33 18.51 31.05 18.24C30.78 17.96 30.46 17.75 30.11 17.6C29.76 17.45 29.38 17.38 29 17.38C28.61 17.38 28.23 17.45 27.88 17.6C27.53 17.75 27.21 17.96 26.94 18.24L18.24 26.94ZM0 29C0 34.73 1.7 40.34 4.88 45.11C8.07 49.88 12.6 53.59 17.9 55.79C23.2 57.98 29.03 58.56 34.65 57.44C40.28 56.32 45.45 53.56 49.5 49.5C53.56 45.45 56.32 40.28 57.44 34.65C58.56 29.03 57.98 23.2 55.79 17.9C53.59 12.6 49.88 8.07 45.11 4.88C40.34 1.7 34.73 0 29 0C25.19 0 21.42 0.75 17.9 2.2C14.38 3.66 11.18 5.8 8.49 8.49C3.05 13.93 0 21.3 0 29ZM52.2 29C52.2 33.58 50.83 38.07 48.29 41.88C45.74 45.7 42.11 48.67 37.87 50.43C33.63 52.18 28.97 52.64 24.47 51.75C19.97 50.85 15.83 48.64 12.59 45.4C9.35 42.16 7.14 38.02 6.24 33.52C5.35 29.02 5.81 24.36 7.56 20.12C9.32 15.88 12.29 12.25 16.11 9.7C19.92 7.16 24.41 5.8 29 5.8C35.15 5.8 41.05 8.24 45.4 12.59C49.75 16.94 52.2 22.84 52.2 29Z"
+                                    fill="#808080" fill-opacity="1.000000" fill-rule="nonzero" />
+                            </svg>
+                        </button>
+                        <button class="sneakers__next" type="button">
+                            <svg width="60.071411" height="60.071533" viewBox="0 0 60.0714 60.0715" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <desc>
+                                    Created with Pixso.
+                                </desc>
+                                <defs />
+                                <path id="Vector"
+                                    d="M41.17 32.16C41.45 31.88 41.66 31.54 41.8 31.17C42.11 30.44 42.11 29.62 41.8 28.89C41.66 28.52 41.45 28.18 41.17 27.9L32.16 18.89C31.6 18.32 30.83 18 30.03 18C29.23 18 28.46 18.32 27.9 18.89C27.33 19.45 27.01 20.22 27.01 21.02C27.01 21.82 27.33 22.59 27.9 23.15L31.8 27.03L21.02 27.03C20.22 27.03 19.46 27.34 18.9 27.91C18.33 28.47 18.02 29.23 18.02 30.03C18.02 30.83 18.33 31.59 18.9 32.15C19.46 32.72 20.22 33.03 21.02 33.03L31.8 33.03L27.9 36.91C27.62 37.19 27.39 37.52 27.24 37.89C27.09 38.25 27.01 38.65 27.01 39.04C27.01 39.44 27.09 39.83 27.24 40.2C27.39 40.56 27.62 40.89 27.9 41.17C28.18 41.46 28.51 41.68 28.88 41.83C29.24 41.98 29.63 42.06 30.03 42.06C30.43 42.06 30.82 41.98 31.19 41.83C31.55 41.68 31.88 41.46 32.16 41.17L41.17 32.16ZM60.07 30.03C60.07 24.09 58.3 18.28 55 13.34C51.7 8.4 47.01 4.55 41.52 2.28C36.04 0.01 30 -0.59 24.17 0.57C18.34 1.73 12.99 4.59 8.79 8.79C4.59 12.99 1.73 18.34 0.57 24.17C-0.59 30 0.01 36.04 2.28 41.52C4.55 47.01 8.4 51.7 13.34 55C18.28 58.3 24.09 60.07 30.03 60.07C38 60.07 45.64 56.9 51.27 51.27C56.9 45.64 60.07 38 60.07 30.03ZM6 30.03C6 25.28 7.41 20.63 10.05 16.68C12.69 12.73 16.44 9.65 20.84 7.83C25.23 6.01 30.06 5.54 34.72 6.46C39.38 7.39 43.66 9.68 47.02 13.04C50.38 16.4 52.67 20.68 53.6 25.34C54.52 30 54.05 34.84 52.23 39.23C50.41 43.62 47.33 47.37 43.38 50.01C39.43 52.65 34.78 54.06 30.03 54.06C23.66 54.06 17.55 51.53 13.04 47.02C8.53 42.52 6 36.4 6 30.03Z"
+                                    fill="#808080" fill-opacity="1.000000" fill-rule="nonzero" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="button__link">
+                        <a href="#showcase" class="see__button">
+                            SEE ALL
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main__company">
+                <div class="container">
+                    <div class="company__inner">
+                        <div class="company__text">
+                            <img src="img/decor/text.png">
+                        </div>
+                        <div class="company__text-decor">
+                            <div class="text__decor-one">
+                                <img src="img/decor/sneakers-text.png">
+                            </div>
+                            <div class="text__decor-two">
+                                <img src="img/decor/sneakers-text-2.png">
+                            </div>
+                            <div class="text__decor-three">
+                                <img src="img/decor/sneakers-text-3.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__brands">
+                        <div class="brand__nike">
+                            <img src="img/icon/logos/nike.svg">
+                        </div>
+                        <div class="brand__adidas">
+                            <img src="img/icon/logos/adidas.svg">
+                        </div>
+                        <div class="brand__vans">
+                            <img src="img/icon/logos/vans.svg">
+                        </div>
+                        <div class="brand__nb">
+                            <img src="img/icon/logos/nb.svg">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main__banner">
+                <div class="banner__stroke">
+                    <p class="banner__text">
+                        <img src="img/icon/logos/nike.svg" alt="">
+                        Just do it
+                        <img src="img/icon/logos/nike.svg" alt="">
+                        Just do it
+                        <img src="img/icon/logos/nike.svg" alt="">
+                        Just do it
+                        <img src="img/icon/logos/nike.svg" alt="">
+                        Just do it
+                        <img src="img/icon/logos/nike.svg" alt="">
+                        Just do it
+                        <img src="img/icon/logos/nike.svg" alt="">
+                        Just do it
+                        <img src="img/icon/logos/nike.svg" alt="">
+                        Just do it
+                        <img src="img/icon/logos/nike.svg" alt="">
+                        Just do it
+                        <img src="img/icon/logos/nike.svg" alt="">
+                        Just do it
+                        <img src="img/icon/logos/nike.svg" alt="">
+                        Just do it
+                        <img src="img/icon/logos/nike.svg" alt="">
+                        Just do it
+                        <img src="img/icon/logos/nike.svg" alt="">
+                        Just do it
+                        <img src="img/icon/logos/nike.svg" alt="">
+                        Just do it
+                        <img src="img/icon/logos/nike.svg" alt="">
+                        Just do it
+                    </p>
+                </div>
+                <div class="banner__nike">
+                    <div class="banner__bg">
+                        <img src="img/decor/bg-nike.png">
+                    </div>
+                    <div class="banner__bg-text">
+                        <img src="img/decor/air-max.png">
+                    </div>
+                    <div class="banner__bg-nike">
+                        <img src="img/decor/light-nike.png">
+                    </div>
+                </div>
+            </section>
+
+            <section class="main__showcase" id="showcase">
+                <div class="container">
+                    <div class="showcase__inner">
+                        <div class="showcase__title">
+                            <h2 class="title">
+                                Top Sellers
+                            </h2>
+                        </div>
+                        <div class="showcase__buttons">
+                            <button class="filters__button button" type="button">
+                                <img src="img/icon/funnel.svg" alt="">
+                                FILTERS
+                            </button>
+                            <button class="sort__button button" type="button">
+                                <img src="img/icon/mini-burger.svg" alt="">
+                                SORT BY
+                            </button>
+                            <button class="burger__button button" type="button">
+                                <img src="img/icon/burger.svg" alt="">
+                            </button>
+                            <button class="window__button button" type="button">
+                                <img src="img/icon/window.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="showcase">
+                        <div class="showcase__products">
+                            <div class="showcase__sneakers">
+                                <div class="sneakers__logo">
+                                    <img src="img/decor/sneakers-orange.png" alt="">
+                                </div>
+                            </div>
+                            <div class="showcase__sneakers">
+                                <div class="sneakers__logo">
+                                    <img src="img/decor/sneakers-green.png" alt="">
+                                </div>
+                            </div>
+                            <div class="showcase__sneakers">
+                                <div class="sneakers__logo">
+                                    <img src="img/decor/sneakers-blue.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__desc">
+                            <div class="sneakers__desc">
+                                <div class="showcase__desc">
+                                    <h4 class="sneakers__name">
+                                        Nike
+                                    </h4>
+                                    <h4 class="sneakers__model">
+                                        Air Force 1 Orche
+                                    </h4>
+                                    <p class="sneakers__price">
+                                        ₹9,985
+                                    </p>
+                                    <p class="sneakers__sizes">
+                                        Sizes: 8 -10
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sneakers__desc">
+                                <div class="showcase__desc">
+                                    <h4 class="sneakers__name">
+                                        Nike
+                                    </h4>
+                                    <h4 class="sneakers__model">
+                                        Air Force Panda
+                                    </h4>
+                                    <p class="sneakers__price">
+                                        ₹19,655
+                                    </p>
+                                    <p class="sneakers__sizes">
+                                        Sizes: 6 -10
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sneakers__desc">
+                                <div class="showcase__desc">
+                                    <h4 class="sneakers__name">
+                                        Nike
+                                    </h4>
+                                    <h4 class="sneakers__model">
+                                        Air Force 1 ‘07
+                                    </h4>
+                                    <p class="sneakers__price">
+                                        ₹15,750
+                                    </p>
+                                    <p class="sneakers__sizes">
+                                        Sizes: 9-12
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sneakers__products">
+                            <div class="showcase__sneakers">
+                                <div class="sneakers__logo">
+                                    <img src="img/decor/sneakers-orange.png" alt="">
+                                </div>
+                            </div>
+                            <div class="showcase__sneakers">
+                                <div class="sneakers__logo">
+                                    <img src="img/decor/sneakers-green.png" alt="">
+                                </div>
+                            </div>
+                            <div class="showcase__sneakers">
+                                <div class="sneakers__logo">
+                                    <img src="img/decor/sneakers-blue.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__desc">
+                            <div class="sneakers__desc">
+                                <div class="showcase__desc">
+                                    <h4 class="sneakers__name">
+                                        Nike
+                                    </h4>
+                                    <h4 class="sneakers__model">
+                                        Air Force 1 Orche
+                                    </h4>
+                                    <p class="sneakers__price">
+                                        ₹9,985
+                                    </p>
+                                    <p class="sneakers__sizes">
+                                        Sizes: 8 -10
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sneakers__desc">
+                                <div class="showcase__desc">
+                                    <h4 class="sneakers__name">
+                                        Nike
+                                    </h4>
+                                    <h4 class="sneakers__model">
+                                        Air Force Panda
+                                    </h4>
+                                    <p class="sneakers__price">
+                                        ₹19,655
+                                    </p>
+                                    <p class="sneakers__sizes">
+                                        Sizes: 6 -10
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sneakers__desc">
+                                <div class="showcase__desc">
+                                    <h4 class="sneakers__name">
+                                        Nike
+                                    </h4>
+                                    <h4 class="sneakers__model">
+                                        Air Force 1 ‘07
+                                    </h4>
+                                    <p class="sneakers__price">
+                                        ₹15,750
+                                    </p>
+                                    <p class="sneakers__sizes">
+                                        Sizes: 9-12
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content hidden">
+                        <div class="showcase__hidden">
+                            <div class="sneakers__product">
+                                <div class="showcase__sneakers">
+                                    <div class="sneakers__logo">
+                                        <img src="img/decor/sneakers-orange.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="showcase__sneakers">
+                                    <div class="sneakers__logo">
+                                        <img src="img/decor/sneakers-green.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="showcase__sneakers">
+                                    <div class="sneakers__logo">
+                                        <img src="img/decor/sneakers-blue.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__description">
+                                <div class="sneakers__desc">
+                                    <div class="showcase__desc">
+                                        <h4 class="sneakers__name">
+                                            Nike
+                                        </h4>
+                                        <h4 class="sneakers__model">
+                                            Air Force 1 Orche
+                                        </h4>
+                                        <p class="sneakers__price">
+                                            ₹9,985
+                                        </p>
+                                        <p class="sneakers__sizes">
+                                            Sizes: 8 -10
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="sneakers__desc">
+                                    <div class="showcase__desc">
+                                        <h4 class="sneakers__name">
+                                            Nike
+                                        </h4>
+                                        <h4 class="sneakers__model">
+                                            Air Force Panda
+                                        </h4>
+                                        <p class="sneakers__price">
+                                            ₹19,655
+                                        </p>
+                                        <p class="sneakers__sizes">
+                                            Sizes: 6 -10
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="sneakers__desc">
+                                    <div class="showcase__desc">
+                                        <h4 class="sneakers__name">
+                                            Nike
+                                        </h4>
+                                        <h4 class="sneakers__model">
+                                            Air Force 1 ‘07
+                                        </h4>
+                                        <p class="sneakers__price">
+                                            ₹15,750
+                                        </p>
+                                        <p class="sneakers__sizes">
+                                            Sizes: 9-12
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button__open">
+                        <button class="btn" type="button" id="toggleButton">
+                            SEE ALL
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__col">
+                        <div class="footer__nav">
+                            <h3 class="footer__nav-title">
+                                Company
+                            </h3>
+                            <ul class="footer__nav-list">
+                                <li class="footer__nav-item">
+                                    <a href="#" class="footer__nav-link">
+                                        About
+                                    </a>
+                                </li>
+                                <li class="footer__nav-item">
+                                    <a href="#" class="footer__nav-link">
+                                        Careers
+                                    </a>
+                                </li>
+                                <li class="footer__nav-item">
+                                    <a href="#" class="footer__nav-link">
+                                        Mobile
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__nav">
+                            <h3 class="footer__nav-title">
+                                Contact
+                            </h3>
+                            <ul class="footer__nav-list">
+                                <li class="footer__nav-item">
+                                    <a href="#" class="footer__nav-link">
+                                        Help/FAQ
+                                    </a>
+                                </li>
+                                <li class="footer__nav-item">
+                                    <a href="#" class="footer__nav-link">
+                                        Press
+                                    </a>
+                                </li>
+                                <li class="footer__nav-item">
+                                    <a href="#" class="footer__nav-link">
+                                        Affilates
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__nav">
+                            <h3 class="footer__nav-title">
+                                More
+                            </h3>
+                            <ul class="footer__nav-list">
+                                <li class="footer__nav-item">
+                                    <a href="#" class="footer__nav-link">
+                                        Airlinefees
+                                    </a>
+                                </li>
+                                <li class="footer__nav-item">
+                                    <a href="#" class="footer__nav-link">
+                                        Airline
+                                    </a>
+                                </li>
+                                <li class="footer__nav-item">
+                                    <a href="#" class="footer__nav-link">
+                                        Low fare tips
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

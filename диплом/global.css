@@ -1,0 +1,28 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    font-family: "Monument Extended", "Arial", sans-serif;
+    color: #000000;
+    line-height: 27.52px;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1890px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
