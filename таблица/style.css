@@ -1,0 +1,20 @@
+.table {
+  font-family: sans-serif;
+  border-collapse: collapse;
+}
+
+.table__title {
+  border: 1px solid #000;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+th,
+td {
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.table__color-red {
+  color: #ff0000;
+}
